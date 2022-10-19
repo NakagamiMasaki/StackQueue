@@ -17,26 +17,8 @@
 */
 int main(void)
 {
-	LinkedList<int> List;
 
-	auto Itr = List.GetEnd();
-	List.Insert(Itr, 4);
-	List.Insert(Itr, 2);
-	List.Insert(Itr, 0);
-	List.Insert(Itr, 3);
-	List.Insert(Itr, 4);
-	List.Insert(Itr, 0);
-	List.Insert(Itr, 1);
-	List.Insert(Itr, 0);
-	List.Insert(Itr, 5);
-
-	List.Quicksort(std::greater<int>());
-
-	for (Itr = List.GetBegin(); Itr != List.GetEnd(); ++Itr)
-	{
-		std::cout << *Itr << std::endl;
-	}
-
+	std::cout << "終了するにはエンターキーを押してください" << std::endl;
 	std::cin.sync();
 	std::cin.get();
 
