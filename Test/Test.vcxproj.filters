@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Test_Stack.cpp">
+      <Filter>AutoTest</Filter>
+    </ClCompile>
+    <ClCompile Include="ManualTest_Stack.cpp">
+      <Filter>ManualTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_Queue.cpp">
+      <Filter>AutoTest</Filter>
+    </ClCompile>
+    <ClCompile Include="ManualTest_Queue.cpp">
+      <Filter>ManualTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_List.cpp">
+      <Filter>AutoTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_Quicksort.cpp">
+      <Filter>AutoTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_Iterator.cpp">
+      <Filter>AutoTest</Filter>
+    </ClCompile>
+    <ClCompile Include="ManualTest_Iterator.cpp">
+      <Filter>ManualTest</Filter>
+    </ClCompile>
+    <ClCompile Include="ManualTest_List.cpp">
+      <Filter>ManualTest</Filter>
+    </ClCompile>
+    <ClCompile Include="ManualTest_Quicksort.cpp">
+      <Filter>ManualTest</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="ManualTest_Stack.h">
+      <Filter>ManualTest</Filter>
+    </ClInclude>
+    <ClInclude Include="ManualTest_Queue.h">
+      <Filter>ManualTest</Filter>
+    </ClInclude>
+    <ClInclude Include="ManualTest_Quicksort.h">
+      <Filter>ManualTest</Filter>
+    </ClInclude>
+    <ClInclude Include="ManualTest_Iterator.h">
+      <Filter>ManualTest</Filter>
+    </ClInclude>
+    <ClInclude Include="ManualTest_List.h">
+      <Filter>ManualTest</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreData.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="AutoTest">
+      <UniqueIdentifier>{60c8fb5f-7008-4537-ba93-2e0543e97bb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ManualTest">
+      <UniqueIdentifier>{fed90007-210f-4540-abfb-02385542f249}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
