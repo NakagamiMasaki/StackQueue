@@ -431,10 +431,10 @@ TYPED_TEST(QuicksortTest, SortSecond)
 	std::sort(TestVector.begin(), TestVector.end(), Comp);
 
 	// std::sort‚ÌŒ‹‰Ê‚Æ”äŠr‚·‚é
-	auto Begin = List.GetConstBegin();
-	auto End = List.GetConstEnd();
+	auto Begin     = List.GetConstBegin();
+	auto End       = List.GetConstEnd();
 	auto TestBegin = TestVector.begin();
-	auto TestEnd = TestVector.end();
+	auto TestEnd   = TestVector.end();
 	for (; Begin != End && TestBegin != TestEnd; ++Begin, ++TestBegin)
 	{
 		auto& Data = *Begin;
